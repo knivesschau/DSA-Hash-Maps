@@ -1,4 +1,4 @@
-class Hashmap {
+class Hashmap_Chain {
     constructor(initialCapacity = 8) {
         this.length = 0;
         this._hashTable = [];
@@ -86,4 +86,4 @@ class Hashmap {
     }
 }
 
-module.exports = Hashmap; 
+module.exports = Hashmap_Chain; 
